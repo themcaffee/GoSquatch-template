@@ -25,7 +25,7 @@ jobs:
       - name: Build pages
         uses: themcaffee/GoSquatch@1.0.26-beta
         with:
-          srcDir: '.'
+          srcDir: 'src'
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: ls
